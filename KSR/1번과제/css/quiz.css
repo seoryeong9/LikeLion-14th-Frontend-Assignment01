@@ -5,10 +5,11 @@ body {
 }
 form {
     display: flex; /*css조건 3번 만족*/
+    flex-direction: column;
 }
 @font-face {
     font-family: 'GangwonEducationSaeum';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/GabiaOndam-Regular.woff2') format('woff2');
     font-weight: normal;
     font-display: swap;
 }
